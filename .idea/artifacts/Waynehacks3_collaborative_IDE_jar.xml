@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Waynehacks3_collaborative_IDE:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Waynehacks3_collaborative_IDE_jar</output-path>
+    <root id="archive" name="Waynehacks3_collaborative_IDE.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="Waynehacks3_collaborative_IDE" />
+    </root>
+  </artifact>
+</component>

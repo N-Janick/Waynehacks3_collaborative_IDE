@@ -12,6 +12,8 @@ public class Controller {
     // attributes
     View view;
 
+
+
     public Controller(View view) {
         this.view = view;
 
@@ -29,7 +31,7 @@ public class Controller {
     }
 
     private void startChat() {
-        System.out.println("Starting Chat");
+       System.out.println("Starting Chat");
         this.view.startChat();
     }
 
