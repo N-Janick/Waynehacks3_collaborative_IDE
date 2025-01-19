@@ -2,11 +2,6 @@ package Collaborative_IDE.Controller;
 
 import Collaborative_IDE.View.View;
 
-import javax.management.remote.JMXConnectorFactory;
-import javax.swing.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-
 public class Controller {
 
     // attributes

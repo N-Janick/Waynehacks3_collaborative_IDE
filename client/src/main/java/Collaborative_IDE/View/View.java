@@ -1,10 +1,7 @@
 package Collaborative_IDE.View;
 
-import Collaborative_IDE.Controller.Controller;
-
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionListener;
 
 public class View {
 

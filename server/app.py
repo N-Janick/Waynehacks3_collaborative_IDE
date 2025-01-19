@@ -1,8 +1,8 @@
 from flask import Flask, render_template
 from flask_socketio import SocketIO, emit, join_room, leave_room
 
-app = Flask(_name_)
-app.config['SECRET_KEY'] = 'secret!'  # Replace with a real secret key
+app = Flask(__name__)
+# app.config['SECRET_KEY'] = 'secret!'  # Replace with a real secret key
 socketio = SocketIO(app, cors_allowed_origins="*")
 
 # Store active rooms and clients if needed
@@ -32,5 +32,5 @@ def handle_text_update(data):
     # Broadcast to all other clients except the sender
     emit('text_update', data, broadcast=True, include_self=False)
 
-if _name_ == "_main_":
-    socketio.run(app, host="0.0.0.0", port=5000)
+if __name__ == "__main__":
+    socketio.run(app, host="127.0.0.1", port=5000)
